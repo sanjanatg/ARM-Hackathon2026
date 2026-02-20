@@ -37,7 +37,7 @@ The model identifies the following anomaly categories:
 ├── 9-class-test.ipynb
 ├── best.pt
 └── README.md
-
+ '''
 
 ---
 
@@ -52,7 +52,7 @@ Final balanced training set: **3,521 images**
 ---
 
 ## Training Configuration
-
+'''bash
 | Parameter | Value |
 |------------|--------|
 | Model | YOLOv8n |
@@ -61,7 +61,7 @@ Final balanced training set: **3,521 images**
 | Batch Size | 16 |
 | Optimizer | SGD |
 | Hardware | NVIDIA P100 |
-
+'''
 ---
 
 ## Performance (mAP@0.5)
@@ -77,7 +77,7 @@ Final balanced training set: **3,521 images**
 | Garbage | 0.980 |
 | Damaged Concrete Structures | 0.995 |
 | DeadAnimalsPollution | 0.969 |
-
+bash'''
 ---
 
 ## Raspberry Pi Deployment
