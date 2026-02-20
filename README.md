@@ -37,6 +37,7 @@ The model identifies the following anomaly categories:
 ├── 9-class-test.ipynb
 ├── best.pt
 └── README.md
+```
 
 ## Dataset
 
